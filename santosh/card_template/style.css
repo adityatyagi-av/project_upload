@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+
+}
+h1{
+    /* text-shadow: 2px 2px 1px; */
+    color: crimson;
+    font-size: 50px;
+}
+body{    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(189, 16, 94) 0%, rgba(183,99,71,1) 49%, rgba(28,0,255,1) 100%);
+    
+    
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    width:350px;
+    height:600px;
+    border:1px solid grey;
+    margin:15px auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+}
+
+.image{
+    width:350px;
+    height:250px;
+    background-color: antiquewhite;
+    margin: 20px 35px;
+    background: url(png-transparent-green-sneakers-skate-shoe-nike-nike-sports-shoes-blue-sport-logo-removebg-preview.png);
+    background-size: contain;
+    padding-left: 5px;
+    background-repeat: no-repeat;
+}
+
+
+.about{
+    text-align: justify;
+    margin:20px
+}
+.button{ 
+    margin: 5px;
+    border: 1px solid red;
+    font-size: large;
+   padding: 5px 8px;
+   border-radius: 35px;
+   /* background-color: grey; */
+   font-weight: bolder;
+   color:rgb(236, 87, 87) ;
+   cursor: pointer;
+
+}
+.button :hover{
+    color:blue;
+    background-color: rgb(22, 20, 20);
+}
+.price{
+    font-size: 35px;
+    font-weight: 800;
+    
+}
+.color{
+    height: 20px;
+    width:20px;
+    border-radius: 100%;
+}
+
+
+.color1{
+    width:10px;
+    height:10px;
+    border:1px solid grey;
+    border-radius: 100%;
+    margin:auto;
+    background-color: rgb(236, 87, 87);
+    display:inline-block;
+    padding: 2px;
+
+}
+.color2{
+    width:10px;
+    height:10px;
+    border:1px solid grey;
+    border-radius: 100%;
+    margin:auto;
+    background-color:white;
+    display:inline-block;
+    padding: 2px;
+}
+.color3{
+    width:10px;
+    height:10px;
+    border:1px solid grey;
+    border-radius: 100%;
+    margin:auto;
+    background-color: rgb(128, 246, 92);
+    display:inline-block;
+    padding: 2px;
+}
