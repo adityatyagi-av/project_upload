@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/FORM.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+  <form action="http://127.0.0.1:5500/FORM.html" method="post" autocomplete="off">
+  <h1>REGISTRATION FORM</h1>
+    <fieldset>
+      <legend>Personalia:</legend>
+    <!-- First Name section is created-->
+  <label for=" FIRST NAME"> FIRST NAME</label><br>
+ <input type="text" id=" FIRST NAME" placeholder=" ENTER FIRST NAME" required=""> <br><br>
+  <!-- Last Name section is created-->
+    <label for="LAST NAME">LAST NAME</label><br>
+<input type="text" id="LAST NAME" placeholder="ENTER LAST NAME" required=""><br><br>
+  <!-- Contact Section is created --> 
+   <label for="CONTACT">CONTACT</label><br>
+  <input type="number" id="CONTACT" placeholder="+91 **********"><br><br>
+  <!-- AGE SECTION IS CTREATED -->
+  <label for="AGE">AGE</label><br>
+  <input type="number" id="AGE" placeholder="--"><br><br>
+  <!-- SECTION FOR DATE OF BIRTH -->
+<label for="DOB">DOB</label><br>
+<input type="date" id="DOB"><br><br>
+  <!-- SECTION FOR EMAIL IS CREATED-->
+    <label for="EMAIL ID"> EMAIL ID</label><br>
+  <input type="text" id="EMAIL ID" placeholder="ENTER ID"><br><br>
+  <!-- ENTER THE ADDRESS -->
+<label for="ADDRESS"> PERMANENT ADDRESS</label><br>
+<textarea cols="80" rows="5" value="address"></textarea>
+  <br><br>
+    <!-- ENTER THE BIO -->
+    <label for="BIO"> ADD BIO</label><br>
+      <textarea cols="80" rows="5" value="BIO"></textarea><br><br>
+        <!-- SELECT A GENDER -->
+<p>GENDER</p>
+<input type="radio" id="MALE" name="GENDER" value="MALE">
+<label for="MALE">MALE</label>
+<input type="radio" id="FEMALE" name="GENDER" value="FEMALE">
+<label for="FEMALE">FEMALE</label>
+<input type="radio" id=" TRIGENDER " name="GENDER" value="TRIGENDER">
+<label for="TRIGENDER"> TRIGENDER</label><br><br>
+  <!-- OPTIONS FOR  YOUR BRANCH-->
+        <p> BRANCH </p>
+        <input type="radio" id="CSE" name="BRANCH" value="CSE">
+        <label for="CSE">CSE</label><br>
+        <input type="radio" id="CSE(AI)" name="BRANCH" value="CSE(AI)">
+        <label for="CSE(AI)">CSE(AI)</label><br>
+        <input type="radio" id="CSE(AIML)" name="BRANCH" value="CSE(AIML)">
+        <label for="CSE(AIML)">CSE(AIML)</label><br>
+        <input type="radio" id="CSIT" name="BRANCH" value="CSIT">
+        <label for="CSE">CSIT</label><br>
+        <input type="radio" id="CS" name="BRANCH" value="CS">
+        <label for="CS">CS</label><br>
+        <input type="radio" id="IT" name="BRANCH" value="IT">
+        <label for="IT">IT</label><br>
+        <input type="radio" id="EN" name="BRANCH" value="EN">
+        <label for="EN">EN</label><br>
+        <input type="radio" id="ECE" name="BRANCH" value="ECE">
+        <label for="ECE">ECE</label><br>
+        <input type="radio" id="OTHER" name="BRANCH" value="OTHER">
+        <label for="OTHER">OTHER</label>
+            <input type="text" id="OTHER" name="OTHER">
+            <!-- ENTER DOMAINS OF YOUR INTEREST -->
+<p>DOMAIN INTERESTED</p>
+<input type="checkbox" id="WEB DEVELOPMENT " name="DOMAIN INTERESTED" value=" WEB DEVELOPMENT">
+<label for="WEB DEVELOPMENT"> WEB DEVELOPMENT</label><br>
+<input type="checkbox" id=" ANDROID  DEVELOPMENT" name="DOMAIN INTERESTED" value=" ANDROID DEVELOPMENT">
+<label for="ANDROID DEVELOPMENT"> ANDROID DEVELOPMENT</label><br>
+    <input type="checkbox" id="AR VR" name="DOMIAN INTERESTED" value="AR VR">
+  <label for="AR VR"> AR VR</label>  <br>
+    <input type="checkbox" id="MACHINE LEARNING " name="DOMAIN INTERESTED" value="MACHINE LEARNING">
+    <label for="MACHINE LEARNING">  MACHINE LEARNING</label><br><br>
+    <!-- SECTION FOR LANGUAGE COMPLETED IS CREATED-->
+    <p>LANGUAGE COMPLETED</p>
+    <input type="checkbox" id="C" name="LANGUAGE COMPLETED" value="C">
+    <label for="C">C</label><br>
+    <input type="checkbox" id="C++" name="LANGUAGE COMPLETED" value="C++">
+    <label for="C++">C++</label><br>
+    <input type="checkbox" id="JAVA" name="LANGUAGE COMPLETED" value="JAVA">
+    <label for="JAVA">JAVA</label><br>
+    <input type="checkbox" id="JAVA SCRIPT" name="LANGUAGE COMPLETED" value="JAVA SCRIPT">
+    <label for="JAVA SCRIPT">JAVA SCRIPT</label><br>
+    <input type="checkbox" id="FLUTTER" name="LANGUAGE COMPLETED" value="FLUTTER">
+    <label for="FLUTTER">FLUTTER</label><br>
+    <input type="checkbox" id="PHYTHON" name="LANGUAGE COMPLETED" value="" phython="">
+    <label for="PHYTHON">PHYTHON</label><br>
+    <input type="checkbox" id="OTHER" name="LANGUAGE COMPLETED" value="OTHER">
+        <label for=" OTHER">ANY OTHER</label>
+        <input type="text" id="OTHER" name="OTHER">
+    <br>
+    <br>
+    <!-- SUBMIT SECTION-->
+    <input type="submit" name="submit" value="SUBMIT" autofocus="" onclick="alert(&#39;Yeah! You have completed it..&#39;)">
+    <label for="SUBMIT"></label>
+    <br>
+     </fieldset>
+    </form>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
