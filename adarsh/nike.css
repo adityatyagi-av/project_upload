@@ -1,0 +1,85 @@
+body{
+   height: 650px;
+   width:100%;
+   background-repeat: no-repeat;
+    background-image: linear-gradient(to right,rgb(252, 9, 175), red, rgb(243, 122, 62));
+    background-size: cover;
+   
+}
+#main{
+    background-color: white;
+    height: 92%;
+    width: 25%;
+    border-radius: 20px;
+    margin-top:4% ;
+    /* margin-bottom: 10%; */
+    margin-left: 38%;
+}
+#pic{
+    margin-top: 0px;
+    margin-left: 8% ;
+}
+h1{
+    font-size: 50px;
+    color: brown;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #5a6875;
+    font-size: 22px;
+    text-align: center; 
+}
+.circle{
+    display: inline-block;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   /* margin-left: 30%; */
+   text-align: center;
+}
+#c1{
+    margin-left: 32%;
+    background-color: rgb(245, 13, 102);
+}
+#c3{
+   margin-left: 5%;
+    background-color: rgb(62, 133, 37);
+}
+#c2{
+    margin-left: 5%;
+    background-color: rgb(105, 106, 152);
+}
+.content{
+    font-size: 18px;
+    padding: 6%;
+    font-weight: 999;
+}
+#price{
+    text-align: center;
+    font-size: 40px;
+    /* font-weight: 9999; */
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.button{
+    text-align: center;
+
+}
+button{
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    background-color: azure;
+   font-size: 20px;
+   font-weight: 900;
+    color: red;
+}  
+
+
