@@ -1,18 +1,21 @@
 body{
     color: black;
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    max-height:fit-content;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 #a{
-    width: 25%;
+    width: 300px;
     border-radius: 30px 30px 30px 30px;
-    height: 25%;
+    max-height: 620px;
     text-align: center;
-    background-color: rgb(224, 205, 169);
+    image-resolution: 50%;
+    background-color: rgb(255,255,255);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 70px;
-  margin-bottom:70px;
-  padding: 50px 20px 20px 20px;
+  margin-top: 60px;
+  margin-bottom:50px;
+  padding: 30px 20px 20px 20px;
 }
 #b{
     color: red;
