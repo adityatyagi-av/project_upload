@@ -13,8 +13,9 @@ body {
 .container {
   border-style: solid;
   height: auto;
-  width: auto;
+  width: 350px;
   margin: 100px;
+  margin-left: 42%;
   box-sizing: border-box;
   border-radius: 40px;
   border: 2px solid aliceblue;
