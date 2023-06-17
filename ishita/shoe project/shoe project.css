@@ -1,0 +1,46 @@
+body{
+    color: black;
+    max-height:fit-content;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+#a{
+    width: 300px;
+    border-radius: 30px 30px 30px 30px;
+    max-height: 620px;
+    text-align: center;
+    image-resolution: 50%;
+    background-color: rgb(255,255,255);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom:50px;
+  padding: 30px 20px 20px 20px;
+}
+#b{
+    color: red;
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+}
+/*#c{
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+    size: 10px 10px;
+}*/
+#c{
+    max-width: 100%;  
+height: auto;  
+}
+h1{
+    color: red;
+    font-style: italic;
+}
+h5{
+    color: grey;
+}
+p{
+    font-family: 'Playfair', serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
