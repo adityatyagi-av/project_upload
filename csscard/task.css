@@ -1,0 +1,70 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(199, 202, 26, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 170px;
+
+    text-align: center;
+
+    background-color: white;
+    border: red 2px solid;
+
+    border-radius: 8%;
+    
+
+}
+#id5{
+    width: 10px;
+    height: 10px;
+    padding:;
+    border-radius: 100%;
+    background-color: red;
+
+}
+#id6{
+    width: 10px;
+    height: 10px;
+    padding:;
+    border-radius: 100%;
+    background-color:silver;
+    vertical-align: middle;
+}
+#id7{
+    width: 10px;
+    height: 10px;
+    padding:;
+    border-radius: 100%;
+    background-color:rgb(73, 237, 73);
+}
+
+h1 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    width: 100px;
+    height: 45px;
+    border-radius: 25%;
+    font-size: large;
+    color: red;
+    border-color: red;
+}
+
+#id2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#id1 {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(110, 65, 65);
+}
+#id2{
+    color:rgb(54, 142, 223);
+}
