@@ -1,0 +1,72 @@
+body {
+     /* background-color: red; */
+     /* max-height: auto; */
+      /* max-width: auto;  */
+     height: 100%;
+     width: 100%;
+     background: rgb(219,43,219);
+     background: rgb(219,43,219);
+background: -moz-linear-gradient(left, rgb(219,43,219) 0%, rgb(219,47,106) 60%, rgb(255,102,39) 100%);
+background: -webkit-linear-gradient(left, rgb(219,43,219) 0%, rgb(219,47,106) 60%, rgb(255,102,39) 100%);
+background: linear-gradient(to right, rgb(219,43,219) 0%, rgb(219,47,106) 60%, rgb(255,102,39) 100%);
+}
+.h1 {
+   /* text-decoration-line: none;*/
+    text-decoration: solid;
+    text-align: center;
+    color: red;
+
+}
+.h3 {
+text-align: center;
+}
+
+
+.templet{
+    background-color: white;
+    /* border-color: black; */
+    text-align: center;
+    margin: auto;
+    padding: 9%;
+    border-radius: 5%;
+    width: 200px;
+    height: 540px;
+    margin-top: 6%;
+     /* padding-top: 3%;   */
+     margin-left:  30%; 
+     margin-bottom: 50px;
+     /* margin-top: 30px ; */
+       padding-top: 5px;  
+}
+
+#about {
+    text-align: center;
+    text-align: justify;
+    font-size: 15px;
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+#price {
+    /* text-decoration-thickness: 80px; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+#button {
+    border-radius: 20px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    
+    color: red ;
+    border:2px solid red;
+     width: 80px; 
+     height: 50px; 
+}
+#image{
+    text-align: center;
+    height: 150px;
+    text-align: justify;
+}
+/* #r1{ */
+    border-radius: 100%;
+    width: 2%;
