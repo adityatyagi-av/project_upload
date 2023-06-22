@@ -1,0 +1,92 @@
+body {
+    background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgb(53, 191, 136) 0%, rgb(92, 62, 142) 50%, rgb(104, 26, 26) 100%);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: #e7cfea;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    position: relative; 
+    height: 650px;
+    width: 420px;
+    border: 2px solid #000000;
+      box-shadow: 0 2px 40px rgba(229, 240, 108, 0.1);
+      animation-duration: 2s;
+      animation-timing-function: linear;
+      animation-name: myanimation;
+  }
+  
+  
+  .Shoes{
+    padding: 20px 0px 0px 0px;
+    height: 120px;
+    width: 250px;
+  }
+  
+  .nike-logo-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  
+  .brand {
+    font-family:fantasy;
+    color:rgb(67, 103, 91);
+    font-size: 300%;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0%;
+  }
+  
+  .category {
+   color: rgb(64, 126, 137);
+   font-family: 'Oswald', sans-serif;
+   font-size: 80%;
+  }
+  
+  .color-options {
+    margin-top: 10px;
+  }
+  
+  .color-option {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-decoration:solid;
+    text-decoration-line:none;
+    text-shadow: #683535;
+  }
+  
+  .price {
+    font-weight:bolder;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  
+  .buy-now {
+    margin-top: 20px;
+    color: rgb(87, 28, 64);
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 150px;
+    
+  }

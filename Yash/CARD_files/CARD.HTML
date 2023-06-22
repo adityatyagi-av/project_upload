@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/CARD.HTML -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  <link rel="stylesheet" type="text/css" href="./card.css"></head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <!-- <div class="menu-icon">
+            <img class="menu-button" src="MenuIcon.png" alt="Menu Button">
+          </div> -->
+        <div id="NikeShoes">
+          <img class="Shoes" src="./CARD_files/NIKE Shoe Image.png" alt="Nike Shoes">
+        </div>
+        <!-- <div class="nike-logo-container">
+            <img class="nike-logo" src="Nikelogo.png" alt="Nike Logo">
+          </div> -->
+        <h2 class="brand"><b>NIKE</b></h2>
+        <p class="category">MEN'S SNEAKERS</p>
+        <div class="color-options">
+          <span class="color-option" style="background-color: rgb(0, 0, 0)"></span>
+          <span class="color-option" style="background-color: rgb(102, 195, 71)"></span>
+          <span class="color-option" style="background-color: rgb(173, 81, 159)"></span>
+        </div>
+        <p class="description">
+          Selecting shoes in 2023 means looking for the perfect balance between
+          style and comfort .Nike,is known for their arch supportand extra
+          cushioning around the heel area. Breathable mesh uppers are also a
+          part of Nike sneakers that add to the comfort component, midsole
+          cushioning that helps with shock absorption.
+        </p>
+        <p class="price">$200.00</p>
+        <button class="buy-now">Buy Now</button>
+      </div>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
