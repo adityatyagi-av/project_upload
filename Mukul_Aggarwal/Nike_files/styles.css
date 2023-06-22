@@ -1,0 +1,101 @@
+body{
+    background: rgb(150,53,158);
+    background: linear-gradient(90deg, rgba(151,53,158,1) 0%, rgba(202,40,91,1) 27%, rgba(215,24,24,1) 50%, rgba(252,99,32,1) 75%, rgba(252,166,65,1) 100%);
+    padding: 100px 200px 100px 550px;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.container{
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 55px;
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+    height: 530px;
+    width: 300px;
+    border: 2px solid #000000;
+}
+
+img{
+    height: 120px;
+    width: 250px;
+    margin: auto;
+}
+
+.n{
+    letter-spacing: -2px;
+    height: 25px;
+    font-weight: 800;
+    text-decoration: red;
+    margin: auto;
+    font-size: larger;
+    text-align: center;
+}
+ 
+p {
+    margin: auto;
+    text-align: justify;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Lilita One', cursive;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+} 
+.dot{
+    text-align: center;
+word-spacing: 12px;
+}
+#dot1{
+height: 25px;
+width: 25px;
+border-radius: 60%;
+display: inline-block;
+ background-color: palevioletred;
+}
+#dot2{
+height: 25px;
+width: 25px;
+border-radius: 60%;
+display: inline-block;
+    background-color:gray;
+
+}
+#dot3{
+    height: 25px;
+width: 25px;
+border-radius: 50%;
+display: inline-block;
+    background-color: green;
+}
+
+.a{
+    font-style:oblique;
+    text-decoration: red;
+}
+h2{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+button{
+    color: red;
+
+    padding: 0px 0px 0px 0px;
+    border-color: red;
+    background-color: white;
+    text-align: justify;
+    border-radius: 40px; 
+     text-decoration-style: solid ;
+     text-align: center;
+    height: 50px;
+    width: 100px;
+    
+}
+#d{
+    
+    font-weight: 900;
+    text-decoration: black;
+    text-align: center;
+}
