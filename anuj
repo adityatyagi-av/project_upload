@@ -1,0 +1,102 @@
+//html code 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="anujcard.css">
+</head>
+<body>
+    <div class="box1">
+        <table style="width: 100%">
+            <tr id="vh" >
+                <th>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9ha-3gMJ2M5vGWT7lYxS-4nTcT5WKHgCyXg&usqp=CAU" alt="">
+                <div ID="BOX3">NIKE</div>
+                <div ID="BOX4"> MEN SNEAKER</div>
+                </th>       
+            </tr>
+            <tr id="vh" >
+                <th>
+               <div id="box6"> 
+            Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, quis!adipisicing elit. Quasi esse iure ea.</div>
+
+            <div class="box2">$200</div>
+
+            <button> <a href="#" class="click">Click Here</a></button>
+             </th>
+        </tr>      
+        </table>
+    </div>
+</body>
+
+        
+</html>
+
+
+
+// css code
+.box1{
+    background-color:white;
+    height: 63vh;
+    width: 300px;
+    margin: auto;
+    margin-top: 25vh;
+    border-radius: 10%;
+}
+body{
+    /* background-color: rgba(28,110,164,0.68); ; */
+    /* background-image: linear-gradient(to left top, #da75d0, #a6548f, #703857, #3a1f2b, #000000); */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,14,202,1) 69%, rgba(0,212,255,1) 100%);
+     
+}
+img{
+    height: 20vh;
+    width: 18vw;
+    /* margin-top: ; */
+}
+/* table,th,tr{
+    border: 5px solid rgb(0, 0, 0);
+    height:100%;
+    width: 100%;
+} */
+#vh{
+    height: 200px;
+
+
+}
+.box2{
+    font-style: italic;
+    font-size: 25px;
+    font:bolder;
+    color: red;
+    margin-top: 8px;
+}
+#BOX3{
+    font-size: 6vh;
+    font: bold;
+    color: red;
+    margin-top: 8px;
+
+}
+#BOX4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#box6{
+    margin-top: 40px;
+    font-size: 17px;
+    margin-bottom: 20px;
+
+}
+button{
+    background-color: red;
+    border-radius: 16%;
+    height: 37px;
+    width: 80px;
+ font-size: 15px;
+  }
+.click{
+color: white;
+}
