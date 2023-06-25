@@ -1,0 +1,33 @@
+.box{
+    margin: 0;
+}
+.container{
+    display: grid;
+    text-align: center;
+    font-size: 2em;
+    grid-template-columns: 400px 900px 200px;
+    grid-template-rows: 150px 390px 150px;
+    gap: 3px;
+    height: 700px;
+    
+}
+#b1{
+    grid-row: 1/span 3;
+    background-color: #E8A0BF;
+}
+
+#b2{
+    grid-column: 2/4;
+    background-color: #BA90C6;
+}
+#b3{
+    background-color: #F2BED1;
+}
+#b4{
+    grid-column: 3/4;
+    background-color: #C0DBEA;
+}
+#b5{
+    grid-column: 2/4;
+    background-color:#B2A4FF ;
+}

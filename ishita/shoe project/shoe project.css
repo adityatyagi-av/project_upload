@@ -1,6 +1,6 @@
 body{
     color: black;
-    max-height:fit-content;
+    height:60px;
     background: rgb(63,94,251);
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
@@ -13,8 +13,8 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
     background-color: rgb(255,255,255);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
-  margin-bottom:50px;
+  margin-top: 40px;
+  margin-bottom:40px;
   padding: 30px 20px 20px 20px;
 }
 #b{
