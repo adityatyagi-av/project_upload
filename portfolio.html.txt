@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <style>
+        h1.Heading1{font-family :Arial, Helvetica, sans-serif;
+            font-size: 300%;
+            text-align: center;
+            color: rgb(207, 231, 247);
+            background-color: rgb(6, 112, 131);
+            border-radius: 15px;
+            
+        }
+       
+
+.body5{
+    /* background-color: aquamarine; */
+     background-image:url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)  ; 
+    background-position-y:20px ;
+    
+    background-size: 1600px;
+    
+}
+.space{
+    float: left;
+    padding: 15px;
+}
+a.space:hover, a.space:active {font-size: 150%;}
+h2.paint{
+    text-decoration-color: azure;
+}
+ span:hover + div.mount {
+  display: block;
+} 
+div.mount {
+  background-color: yellow;
+  padding: 20px;
+  display: none;
+} 
+  
+    </style>
+</head>
+<body class="body5">
+
+    <h1 class="Heading1"> <i> <b> <strong>PRASANNAM TIWARI</strong> </b> </i> </h1> 
+    
+<nav class="navbar">
+    
+   
+<div class="trex">
+    <div class="space " id="b1" class="selected"><a class="space" href="#"><i class="fa fa-fw fa-search"></i><span>About</span></a></div>
+    <div class="space " id="c1" class="selected"><a class="space" href="#"><i class="fa fa-fw fa-photo"></i>Portfolio</a></div>
+    <div class="space " id="e1" class="selected"><a class="space" href="#"><i class="fa fa-fw fa-phone"></i>Contact</a></div>
+    <div class="space " id="a1" class="selected"><a class="space" href="#"><i class="fa fa-fw fa-home"></i>Services</a></div>
+</div>   
+
+</nav>
+
+
+
+
+
+
+<div class="space">
+    
+    <p>
+        MY NAME IS PRASANNAM TIWARI.I AM CURRENTLY PERSUING MY B.TECH DEGREE FROM KIET GROUP OF INSTITUTION.
+        I AM LEARNING WEB DEV AND I AM CURRENTLY WORKING ON SOME PROJECTS AND WANT TO LEARN NEW SKILLS.
+    </p>
+    
+        <h2 class="paint">skills</h2>
+        <p class="paint">1.html</p>
+        <p class="paint">2.css</p>
+        <p class="paint">3.javascript</p>
+    
+    
+    
+        <h2 class="paint"> Language Learnt</h2>
+    <p class="paint"> C </p>
+    <p class="paint" > Python </p>
+    
+    <p class="paint"> javascript </p>
+    <p class="paint"> C++ </p>
+    
+
+</div>
+
+
+   
+
+
+
+
+
+    <!-- <div class="body2">
+    <h2 class="body1"> Language Learnt</h2>
+    <p class="body1"> C </p>
+    <p class="body1"> Python </p>
+    
+    <p class="body1"> javascript </p>
+    <p class="body1"> C++ </p>
+    </div>
+    
+    <hr>
+    <div class="body4">
+    <h2> Hobbies </h2>
+    <p> Reading, Video Editing,reading journals and news articles </p>-->
+
+</body>
+</html> 
