@@ -1,0 +1,41 @@
+
+<html>
+<head>
+  <style>
+    h1 {
+      text-shadow: 0cqi;
+      font-style: oblique;
+      margin-left: 295px;
+      margin-top: 120px; 
+      position: absolute;
+    
+    }
+  .change{
+    margin-top: 22%;
+    margin-left: 46%;
+    position: relative;
+    padding: 20px 20px;
+    color: black;
+    background-color: aqua;
+    border-radius: 12px;
+  
+  }
+  </style>
+<script>
+    var color = ["red", "blue", "green","yellow","voilet"];
+    var specificcolor = 0;
+    function changeColor() {
+        var col = document.getElementById("change");
+        if( specificcolor >= color.length ) {
+            specificcolor = 0;
+        }
+        col.style.backgroundColor = color[specificcolor];
+        specificcolor++;
+    }
+</script>
+    <body id='change' >
+      <h1>USE THIS BUTTON FOR CHANGING COLOR OF THE BACKGROUND.
+      </h1>
+    <button class="change" onclick="changeColor();">Change-color</button>
+    </body>
+</html
