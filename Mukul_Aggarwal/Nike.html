@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/Day%202/Nike.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="stylesheet" href="./Nike_files/styles.css">
+    <link href="./Nike_files/css2" rel="stylesheet">
+</head>
+<body>
+    <div class="container"> 
+         <div class="abc"><img src="./Nike_files/NIKE Shoe Image.png" alt="Image of NIKE Shoes"></div>
+                <!-- <img src="https://www.nicepng.com/png/detail/78-789516_nike-shoe-png-for-kids-nike-hyperdunk-2017.png" alt="Nike Shoe Png For Kids - Nike Hyperdunk 2017 Shoes@nicepng.com"> 
+    -->
+         <div class="n"><h1><b>NIKE</b></h1></div>
+     <div><h2>Men's sneakers</h2></div>
+    <div class="dot">
+    <span id="dot1"></span>
+    <span id="dot2"></span>
+    <span id="dot3"></span>
+</div>
+<br>
+ <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt inventore cupiditate delectus, fugiat, nisi culpa placeat eligendi facilis a quis voluptatibus neque iste!</b></p>
+   <div class="c" id="d"><h1>$200</h1></div>
+     <div class="b"><button><b>BUY NOW</b></button></div>
+    </div>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

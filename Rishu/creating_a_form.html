@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="post">
+            <label for="Name"id="name"class="name">Username :</label>
+            <input type="text"id="name"placeholder="Enter your Name">
+            <br>
+            <br>
+            <label for="Contact number"id="Contact no."class="contact no.">Contact Number :</label>
+            <input type="number"id="contact no."placeholder="Enter your Mobile Number">
+            <br>
+            <br>
+            <label for="DOB"id="DOB"class="DOB">Date Of Birth :</label>
+            <input type="date"id="DOB"placeholder="Enter your Birth Date">
+            <br>
+            <br>
+            <label for="Address"id="Address"class="Address">Address :</label>
+            <input type="text"id="Address"placeholder="Enter your Address">
+            <br>
+            <br>
+            <label for="Bio">Tell me more about you : </label>
+            <br>
+            <textarea name="Bio"id="Bio" cols="60"rows="10" placeholder="About You...."></textarea>
+            <br><br>
+            <p>Gender :</p>
+            <input type="radio"id="male"name="gender">
+            <label for="">Male</label>
+            <br>
+            <input type="radio"id="female"name="gender">
+            <label for="">Female</label>
+            <p>Branch :</p>
+            <input type="radio"id="CSE"name="branch">
+            <label for="">CSE</label>
+            <input type="radio"id="CSE(AI)"name="branch">
+            <label for="">CSE(AI)</label>
+            <input type="radio"id="CSE(AI&ML)"name="branch">
+            <label for="">CSE(AI&ML)</label>
+            <input type="radio"id="CS"name="branch">
+            <label for="">CS</label>
+            <input type="radio"id="CSIT"name="branch">
+            <label for="">CSIT</label>
+            <input type="radio"id="IT"name="branch">
+            <label for="">IT</label>
+            <p>Interested Domain :</p>
+            <input type="checkbox"name="web">
+        <label for="Web">Web Development</label>
+        <br>
+        <input type="checkbox"name="android">
+        <label for="Android">Android Development</label>
+        <br>
+        <input type="checkbox"name="AR/VR">
+        <label for="AR/VR">AR/VR</label>
+        <br>
+        <input type="checkbox"name="ML">
+        <label for="ML">Machine Learning</label>
+        <br><br>
+        <input type="submit">
+        </form>
+    </div>
+</body>
+</html>

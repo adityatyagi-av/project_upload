@@ -1,0 +1,153 @@
+/* Reset default browser styles */
+body, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('Bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+/*Headings*/
+h1{
+    font-family :cursive;
+    font-size: 300%;
+    text-align: center;
+    color: yellow;
+  }
+h4{
+    font-size: 150%;
+    text-align: center;
+    color: gray;
+  }
+h2{
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline yellow 2px ;
+    font-size: 28px;
+  }
+/*Headings*/
+
+/*Boxes*/
+.boxxx{
+  display: flex;
+}
+#box1 {
+  flex: 0;
+  height: 10px;
+  width: 10px;
+}
+.Img1{border: 5px solid yellow;
+  margin: 30px 12px 12px 25px;
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
+}
+#box2{
+  flex: 1;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  padding: 1px 5px 5px 1px;
+  height: 250px;
+  width: 900px;
+  min-width: 1200px;
+}
+#box5 {
+  height: 200px;
+  width: 900px;
+  padding: 0px 10px 0px 10px;
+  text-align: left;
+  min-width: 445px;
+  color: black;
+}
+#box6, #box8{
+  height: 200px;
+  width: 1475px;
+  padding-left: 10px;
+  color: black;
+  text-align: left;
+  min-width: 445px;
+}
+#box7{
+  height: 150px;
+  width: 1475px;
+  padding-left: 10px;
+  color: black;
+  text-align: left;
+  min-width: 445px;
+}
+
+
+
+  
+  .Social:hover {
+    transform: scale(1.2);
+  }
+  #contact1:hover{
+    color: yellow;
+    cursor: pointer;
+  }
+  footer {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  footer:hover {
+    background-color: blue;
+  }
+
+  #insta{
+    padding-right: 20px;
+    height: 30px;
+    width: 30px;
+  }
+  #yt{
+    height: 30px;
+    width: 30px;
+  }
+  #Twitter{
+    padding-left: 20px;
+    height: 30px;
+    width: 30px;
+  }
+
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,64 @@
+
+    .box1{
+        background-color:white;
+        height: 63vh;
+        width: 300px;
+        margin: auto;
+        margin-top: 25vh;
+        border-radius: 10%;
+    }
+    body{
+        /* background-color: rgba(28,110,164,0.68); ; */
+        /* background-image: linear-gradient(to left top, #da75d0, #a6548f, #703857, #3a1f2b, #000000); */
+        background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,14,202,1) 69%, rgba(0,212,255,1) 100%);
+         
+    }
+    img{
+        height: 20vh;
+        width: 18vw;
+        /* margin-top: ; */
+    }
+    /* table,th,tr{
+        border: 5px solid rgb(0, 0, 0);
+        height:100%;
+        width: 100%;
+    } */
+    #vh{
+        height: 200px;
+
+
+    }
+    .box2{
+        font-style: italic;
+        font-size: 25px;
+        font:bolder;
+        color: red;
+        margin-top: 8px;
+    }
+    #BOX3{
+        font-size: 6vh;
+        font: bold;
+        color: red;
+        margin-top: 8px;
+
+    }
+    #BOX4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #box6{
+        margin-top: 40px;
+        font-size: 17px;
+        margin-bottom: 20px;
+
+    }
+    button{
+        background-color: red;
+        border-radius: 16%;
+        height: 37px;
+        width: 80px;
+     font-size: 15px;
+      }
+  .click{
+    color: white;
+  }
