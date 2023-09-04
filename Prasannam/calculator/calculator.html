@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calulator</title>
+  </head>
+  <script src="calculate.js"></script>
+  <link rel="stylesheet" href="calculator.css" />
+  <body>
+    <div class="main">
+      <input type="text" id="res" />
+      <div class="btn">
+        <input type="button" value="Clear" onclick="Clear()" />
+        <input type="button" value="%" onclick="find('%')" />
+        <input type="button" value="←" onclick="erase('←')" />
+        <input type="button" value="/" onclick="find('/')" />
+        <br />
+        <input type="button" value="8" onclick="find('8')" />
+        <input type="button" value="9" onclick="find('9')" />
+        <input type="button" value="x" onclick="find('*')" />
+        <br />
+        <input type="button" value="4" onclick="find('4')" />
+        <input type="button" value="5" onclick="find('5')" />
+        <input type="button" value="6" onclick="find('6')" />
+        <input type="button" value="-" onclick="find('-')" />
+        <br />
+        <input type="button" value="1" onclick="find('1')" />
+        <input type="button" value="2" onclick="find('2')" />
+        <input type="button" value="3" onclick="find('3')" />
+        <input type="button" value="+" onclick="find('+')" />
+        <br />
+        <input type="button" value="00" onclick="find('00')" />
+        <input type="button" value="0" onclick="find('0')" />
+        <input type="button" value="." onclick="find('.')" />
+        <input type="button" value="=" onclick="Result()" />
+      </div>
+    </div>
+  </body>
+</html>
